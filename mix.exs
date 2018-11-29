@@ -40,10 +40,10 @@ defmodule Torch.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix, "~> 1.3"},
+      {:phoenix, "~> 1.4"},
       {:phoenix_html, "~> 2.10"},
-      {:scrivener_ecto, ">= 1.2.1"},
-      {:filtrex, "~> 0.4.1"},
+      {:scrivener_ecto, "~> 2.0"},
+      {:filtrex, git: "https://github.com/r-icarus/filtrex.git"},
       {:excoveralls, ">= 0.0.0", only: [:dev, :test]},
       {:credo, "~> 0.5", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: [:dev, :test]}
